@@ -83,4 +83,4 @@ theme: hexo-theme-next-master
 deploy:
   type: git
   github: git@github.com:wpxu08/wpxu08.github.io.git,master
-  coding: git@gitee.com:wpxu/wpxu.git,master
+  gitee: git@gitee.com:wpxu/wpxu.git,master
