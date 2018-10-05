@@ -82,5 +82,7 @@ theme: hexo-theme-next-master
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  github: git@github.com:wpxu08/wpxu08.github.io.git,master
-  gitee: git@gitee.com:wpxu/wpxu.git,master
+  repo: https://github.com/wpxu08/wpxu08.github.io.git
+  branch: master
+  # github: git@github.com:wpxu08/wpxu08.github.io.git,master
+   #gitee: git@gitee.com:wpxu/wpxu.git,master
