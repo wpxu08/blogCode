@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://wpxu.gitee.io
+url: http://wpxu08.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -82,4 +82,5 @@ theme: hexo-theme-next-master
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://gitee.com/wpxu/wpxu.git
+  github: git@github.com:wpxu08/wpxu08.github.io.git,master
+  coding: git@gitee.com:wpxu/wpxu.git,master
