@@ -243,10 +243,9 @@ wechat_subscriber:
   description: Welcome to follow my public WeChat
 
 # Reward
-# reward_comment: ������ͣ���������
-reward_comment: Sincere appreciation, leaving fragrance behind
-wechatpay: /images/reward-img-wechat.png
-alipay: /images/reward-img-alipay.png
+# reward_comment: Sincere appreciation, leaving fragrance behind
+# wechatpay: /images/reward-img-wechat.png
+# alipay: /images/reward-img-alipay.png
 
 # Declare license on posts
 post_copyright:
