@@ -25,6 +25,7 @@ categories: 计算机图形学
 |65 | 倒数第3行 | $y_i+m/2$ | $y_i-int(y_i)+m/2$ |
 |73|6|$$ y'=rsin(\phi+\theta)=rcos \phi sin \theta - rsin \phi cos \theta $$| $$ y'=rsin(\phi+\theta)=rcos \phi sin \theta + rsin \phi cos \theta $$ |
 |75 | 8 | 相对于y轴的反射 | 相对于x轴的反射 |
+|82/87 | 式(4.40/57) | $$\begin{bmatrix} cos\theta & \mathbf{-sin\theta} & 0  \\ \mathbf{sin\theta} & cos\theta & 0  \\ 0 & 0 & 1 \\  \end{bmatrix} $$ | $$\begin{bmatrix} cos\theta & \mathbf{sin\theta} & 0  \\ \mathbf{-sin\theta} & cos\theta & 0  \\ 0 & 0 & 1 \\  \end{bmatrix} $$ |
 |117 | 2 | $$T=R(\theta)T(-x_0, -y_0) =\begin{bmatrix} cos\theta & \mathbf{sin\theta} & 0  \\ \mathbf{-sin\theta} & cos\theta & 0  \\ 0 & 0 & 1 \\  \end{bmatrix}  \begin{bmatrix} 1 & 0 & -x_0  \\0 & 1 & -y_0  \\0 & 0 & 1  \end{bmatrix}$$ | $$T=R(\theta)T(-x_0, -y_0) = \begin{bmatrix}	cos\theta & -sin\theta & 0  \\sin\theta & cos\theta & 0  \\	0 & 0 & 1  \end{bmatrix}  	\begin{bmatrix} 1 & 0 & -x_0  \\0 & 1 & -y_0  \\0 & 0 & 1  \end{bmatrix} $$ |
 |122 | 15 | $$t_1^{''}=(x_R-x_1)/dx$$ | $$t_1^{''}=(y_B-y_1)/dy$$ |
 | 130     |  24  |glLoadIdentity()  | 应移至void display(void)中的第1个glColor3f(0.0,0.0,1.0)后  |  参考[5.5 Opengl编程实例－红蓝三角形 ](http://blog.csdn.net/wpxu08/article/details/77608983)|
