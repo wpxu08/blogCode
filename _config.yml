@@ -4,10 +4,10 @@
 
 # Site
 # title: Computer Graphics and Data Visualization
-title: 图形学与可视化
+title: 计算机图形学
 subtitle:
 description:
-author: Xu Wenpeng
+author: Xu Wenpeng/wpxu08@gmail.com
 language:
 timezone:
 
@@ -78,11 +78,17 @@ pagination_dir: page
 #theme: hexo-theme-EZLippi-master
 theme: hexo-theme-next-master
 
+server:
+  port: 4001
+  compress: true
+  header: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: https://github.com/wpxu08/wpxu08.github.io.git
+  # repo: https://gitee.com/wpxu/wpxu.git
   branch: master
   # github: git@github.com:wpxu08/wpxu08.github.io.git,master
    #gitee: git@gitee.com:wpxu/wpxu.git,master
