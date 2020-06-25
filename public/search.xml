@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Experiment 1 Create A Square]]></title>
+    <url>%2F2020%2F06%2F25%2FExperiment1-DrawASquare%2F</url>
+    <content type="text"><![CDATA[1. Experiment goal Understand experiment environment and the process of experiment; Learn how to draw a square and understand its vertex drawing order. 2. Experiment contentPlease do the following code exercises: Exercise 7 “First Programming Exercise” in Lesson 2 Problem Set; Exercise 13 “Create a Square” in Lesson 4 Points, Vectors, and Meshes; Exercise 18 “Return of the Square” in Lesson 4 Points, Vectors, and Meshes; 3. Experiment reportPlease write experiment report based on experiment report templated according to your experiment process and submit it with the code file (fix-javascript-errors.js, triangle-mesh.js, vertex-order.js) to the experiment assignment on ketangpai platform .]]></content>
+      <categories>
+        <category>Computer Graphics</category>
+      </categories>
+      <tags>
+        <tag>Computer Graphics</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[实验0.1 FreeGlut配置简介]]></title>
     <url>%2F2020%2F05%2F20%2FCG%E5%AE%9E%E9%AA%8C0.1%20FreeGlut%E9%85%8D%E7%BD%AE%E7%AE%80%E4%BB%8B%2F</url>
     <content type="text"><![CDATA[1．FreeGlut简介：先介绍下Glut库。GLUT最初由MarkKilgard编写，从OpenGL Redbook（红宝书）第二版起就用来作为示例程序的支持环境，直到第八版为止（注：第九版开始改为GLFW）。从那时起，GLUT因为其简单、可用性广、可移植性强，被广泛应用于各种OpenGL实际应用中。Glut最新版本为3.7版，大致在1998年8月停止维护和更新，同时其代码也没有开源。Freeglut是Glut库(OpenGL Utility Toolkit，OpenGL实用工具包)的免费开源替代品。它是由Pawel W. Olszta在1999年12月创建，最新版本为2015年3月的3.0版本。 2. FreeGlut获取可以选择源码自己编译，也可以直接使用编译好的文件。(1) 源码下载链接：http://prdownloads.sourceforge.net/freeglut/freeglut-3.0.0.tar.gz?download(2) 编译好的文件下载链接：https://www.transmissionzero.co.uk/software/freeglut-devel/其中如果以VS为编程环境，可以直接下载上述链接页面中的MSVC包（“freeglut 3.0.0 MSVC Package”）。 3．FreeGlut配置下面以freeglut-MSVC.zip文件介绍FreeGlut在VS2017中的配置。(1) 头文件 将freeglut\include\GL目录复制到 Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include目录下;(2) 库文件 将freeglut\lib\freeglut.lib文件复制到Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x86目录下; 将freeglut\lib\x64\freeglut.lib文件复制到Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64目录下;(3) Dll文件 64位Windows系统： 将freeglut\bin\freeglut.dll文件复制到C:\Windows\SysWOW64目录下; 将freeglut\bin\x64\freeglut.dll文件复制到c:\Windows\System32目录下; 32位Windows系统： 将freeglut\bin\freeglut.dll文件复制到c:\Windows\System32目录下;4．补充为防止出现“无法打开文件“freeglutd.lib””的错误，需要在代码文件中#include &lt;GL/glut.h&gt;语句前加上#define NDEBUG，如下所示：123#define NDEBUG #include &lt;GL/glut.h&gt;...... 原因请参考文章Freeglut中无法打开文件”freeglutd.lib”。]]></content>
